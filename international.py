@@ -5,68 +5,79 @@ trads = {
     'Title_hp': 
         {
             'en': 'Glacier Gallery',
-            'de': 'Gletschergallerie'
+            'de': 'Gletschergallerie',
+            'ca': 'Visor de Glaceres'
         },  
     
     'instruction':
         {
             'en': 'Explore glaciers of the world by moving the mouse over the colored dots on the map. <br> When you <b>click</b> on them, information about the glacier type will appear in the box on the right.',
-            'de': 'Entdecke verschiedene Gletscher dieser Erde. Fahre dazu mit der Maus über die farbigen Markierungen auf der Karte. <br>Wenn du sie <b>anklickst</b> erscheinen Informationen zum entsprechenden Gletschertyp in der Box auf der rechten Seite.'
+            'de': 'Entdecke verschiedene Gletscher dieser Erde. Fahre dazu mit der Maus über die farbigen Markierungen auf der Karte. <br>Wenn du sie <b>anklickst</b> erscheinen Informationen zum entsprechenden Gletschertyp in der Box auf der rechten Seite.',
+            'ca': 'Exploreu les glaceres del mon movent el cursor per sobre els punts de colors del mapa. <br> Quan cliqueu <b>clic</b>, us apareixerà la informació referent a aquesta glacera al requadre de la dreta.'
         }, 
     
     'link_to_license_intro':
         {
             'en': 'Links to licenses of the images:',
-            'de': 'Links zu den Bilderlizenzen:'
+            'de': 'Links zu den Bilderlizenzen:',
+            'ca': 'Enllaços a les llicències de les imatges:'
         },  
     
     'links_pic_src_intro':
         {
             'en': 'Links to sources of the images:',
-            'de': 'Links zu den Bilderquellen:'
+            'de': 'Links zu den Bilderquellen:',
+            'ca': 'Enllaçoss a les fonts de les imatges:'
         },  
     
 # text box texts, headers and sources:    
     'tab_title_1':
         {
             'en': 'Glacier type',
-            'de': 'Gletschertyp'
+            'de': 'Gletschertyp',
+            'ca': 'Tipus de glacera'
         },
     
     'tab_title_2':
         {
             'en': 'Glacier definition',
-            'de': 'Gletscherdefinition'
+            'de': 'Gletscherdefinition',
+            'ca': 'Definició de glacera'
         },
     
     'Glacier_title':
         {
             'en': "Glaciers",
-            'de': "Gletscher"
+            'de': "Gletscher",
+            'ca': "Glaceres"
         },
     
     'type_pure_ice':
         {
             'en': "Pure ice glacier",
-            'de': "Reiner Eisgletscher"
+            'de': "Reiner Eisgletscher",
+            'ca': "Glacera de gel pur"
         },
     
     'type_calving':
         {
             'en': "Calving glacier",
-            'de': "Kalbender Gletscher"
+            'de': "Kalbender Gletscher",
+            'ca': "Glacera de despreniment (?)"
         },
     
     'type_debris_covered':
         {
             'en': "Debris covered glacier",
-            'de': "Blockgletscher"
+            'de': "Blockgletscher",
+            'ca': "Glacera coberta de sediments"
         },
     
     'type_ice_cap':
         {
             'en': "Ice cap",
-            'de': "Eiskappe"
+            'de': "Eiskappe",
+            'ca': "Casquet glacial"
         },
     
     # text width matters
@@ -112,7 +123,25 @@ trads = {
     Talgletscher, "Transektionsgletscher" 
     (verbundene Talgletscher), Piedmontgletscher, 
     Kargletscher und Nischengletscher. 
-    """            
+    """,
+            'ca': """
+    Les glaceres es defineixen com a massa de gel
+    multianual que es forma a través de compressió
+    de neu. La massa de gel flueix o ha fluit en 
+    el passat, a cause de deformació interna o
+    lliscament basal. Les glaceres acumulen neu
+    a cotes elevades i perden massa a cotes baxes 
+    a cause de fosa o bé descàrrega al mar o en llacs.
+    
+    A més, les glaceres es poden distingir entre
+    les que són acotades i les que no. Les no acotades
+    inclouen casquets glacials, glaceres continentals
+    i corrents de gel. Les glaceres acotades
+    inclouen camps de gel, glaceres de vall,
+    glaceres de trasecció (glaceres de vall inter-
+    connectades), glaceres de piedmont, glaceres de
+    circ i de nínxol.
+    """    
         },
     
     'Glacier_text_source':
@@ -129,6 +158,16 @@ trads = {
     """,
             'de':"""
     siehe IPCC, 2013: Climate Change 2013: The Physical Science Basis. 
+    Contribution of Working Group I to the Fifth Assessment Report of 
+    the Intergovernmental Panel on Climate Change [Stocker, T.F., D. 
+    Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. 
+    Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, 
+    Cambridge, United Kingdom and New York, NY, USA, 1535 pp.,
+    http://www.antarcticglaciers.org/glacier-processes/glacier-types/
+    types-of-glaciers/
+    """,
+            'ca':"""
+    vegeu IPCC, 2013: Climate Change 2013: The Physical Science Basis. 
     Contribution of Working Group I to the Fifth Assessment Report of 
     the Intergovernmental Panel on Climate Change [Stocker, T.F., D. 
     Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. 
@@ -168,6 +207,20 @@ trads = {
     Gletscher zugeordnet, die den hier genannten 
     Charakteristika entsprechen, und dabei nicht in 
     die anderen Kategorien passen.  
+    """,
+            'ca':"""
+    La majoria de glaceres son glaceres de gel pur.
+    Això vol dir que no estan recobertes de sediments
+    o roques. Formen tota mena de formes que estan
+    descrites a la definició de glaceres. Hom pot
+    trobar aquest tipus de glaceres a tots els 
+    continents.
+    
+    
+    Siusplau, noteu que posem totes les glaceres
+    que no encaixen a cap dels altres tipus de glaceres,
+    però exhibeixen característiques de glacera de
+    gel pur. 
     """
     },
     
@@ -184,6 +237,16 @@ trads = {
     """,
          'de':"""
     siehe IPCC, 2013: Climate Change 2013: The Physical Science Basis. 
+    Contribution of Working Group I to the Fifth Assessment Report of 
+    the Intergovernmental Panel on Climate Change [Stocker, T.F., D. 
+    Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. 
+    Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, 
+    Cambridge, United Kingdom and New York, NY, USA, 1535 pp.,
+    http://www.antarcticglaciers.org/glacier-processes/glacier-types/
+    types-of-glaciers/
+    """,
+    	 'ca': """
+    vegeu IPCC, 2013: Climate Change 2013: The Physical Science Basis.
     Contribution of Working Group I to the Fifth Assessment Report of 
     the Intergovernmental Panel on Climate Change [Stocker, T.F., D. 
     Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. 
@@ -233,6 +296,28 @@ trads = {
     Wie oft und wieviel ein Gletscher kalbt ist z.B. 
     abhängig von der Deformationsgeschwindigkeit 
     und der Fließgeschwindigkeit des Eises. 
+    ''',
+            'ca':'''
+    Una glacera es precipita quan una gran massa
+    de gel es trenca al front glacial. La majoria 
+    d'aquestes glaceres acaben sobre aigua,
+    que vol dir que es precipiten en llacs, fiords 
+    o al mar. O bé floten sobre la superfície 
+    o bé estan en contacte amb el sol sota 
+    la massa d'aigua. Les glaceres que es precipiten 
+    exhibeixen moltes esquerdes (o crebasses)
+    a cause del seu fluir ràpid i un esforç de
+    tensió al seu extrem final. Una altra caracte-
+    rística és el seu precipici gairebé vertical
+    a la seva part final, on es produeix el 
+    CALVING (?). Depenent del gruix de la glacera
+    el front glacial pot ser de deu a 
+    vuitanta metres d'alt. Com de sovint i 
+    amb quina intensitat es precipita una glacera
+    es pot desciure amb el ritme de precipitació,
+    que depèn de les variacions longitudinals dels 
+    esforços i de la velocitat del gel, entre
+    d'altres.
     '''
     },
     
@@ -247,7 +332,12 @@ trads = {
     siehe Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., 
     Shroder, J. F., & Tranter, M. (2011). Encyclopedia of snow, ice 
     and glaciers. Springer Science & Business Media.
-    """        
+    """,
+            'ca': """
+    vegeu Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., 
+    Shroder, J. F., & Tranter, M. (2011). Encyclopedia of snow, ice 
+    and glaciers. Springer Science & Business Media.
+    """   
     },
     
     'debris_text':
@@ -295,6 +385,27 @@ trads = {
     Dieser Gletschertyp existiert in allen größeren 
     Bergregionen der Welt, im Himalaya ist er 
     die vorherrschende Gletscherform.
+    ''',
+            'ca':'''
+    Una capa de sediments cobreix la part inferior
+    de la superficie glacial. Aquest tipus de 
+    glacera es pot trobar a les principals cadenes
+    muntanyoses del mon, per exemple a l'Himalaia
+    és la tipus dominant de glacera. La capa de
+    sediments es forma a causa d'esllavissades
+    provinents dels vessant de muntanya propers
+    que tenen ritmes alts de (EROSIÓ?), despreniments
+    rocosos i esllavissades mixtes (neu/gel/roques).
+    La distribució i el tipus de cobertura 
+    infueix la dinàmica de la glacera, reologia
+    i balanç de massa, i especialment la seva ablació. 
+    Depenent del gruix de la capa de sediments, 
+    la fosa augmenta o disminueix: sediments dispersos i
+    capes primes (gruix inferior a ~15-80 mm) 
+    incrementen la fosa, perquè les roques s'escalfen
+    sota l'influencia de la radiació solar. 
+    Per altra banda, capes gruixudes tene un efecte
+    aïllant i protegeixen el gel de la rediació solar.
     '''
     },
     
@@ -309,7 +420,12 @@ trads = {
     siehe Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., 
     Shroder, J. F., & Tranter, M. (2011). Encyclopedia of snow, ice 
     and glaciers. Springer Science & Business Media.
-    """        
+    """,
+                'ca': """
+    vegeu Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., 
+    Shroder, J. F., & Tranter, M. (2011). Encyclopedia of snow, ice 
+    and glaciers. Springer Science & Business Media.
+    """           
     },
     
     'ice_cap_text':
@@ -358,6 +474,28 @@ trads = {
     Oberfläche, wobei einzelne Gipfel 
     herausschauen können, die "Nunataks" genannt 
     werden.
+    ''',
+            'ca':'''
+    Els casquets glacials es defineixen com 
+    immenses masses de gel que cobreixen 
+    extensions de terreny a gran escala però
+    inferior als 50000 km²(aproximadament l'àrea
+    de Costa Rica). Aquesta definició exclou Groenlàndia
+    i el casquel glacial antàrtic, que son molt 
+    més extensos. Els casquets glacials es poden trobar
+    en regions polars o subtemperades, on
+    l'acumulació de neu normalment excedeix l'ablació.
+    El procés de formació es pot descriure de la següent 
+    manera: les glaceres creixen a les parts altes
+    de les muntanyes, les glaceres properes s'hi
+    uneixen i es creen bandes de gel al voltant
+    les muntanyes. Aquestes bandes de gel es fusionen
+    anb les bandes d'altres muntanyes.
+    Conseqüentment es constitueixen els grans cas-
+    quets glcials que cobreixen grans parts de la
+    terra. Els casquets glacials cobreixen la topografia
+    mentre només alguns pics sobresurten per sobre
+    la superfície glacial, els anomenats "nunataks".
     '''
     },
     
@@ -372,36 +510,48 @@ trads = {
     siehe Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., 
     Shroder, J. F., & Tranter, M. (2011). Encyclopedia of snow, ice 
     and glaciers. Springer Science & Business Media.
-    """        
+    """,
+            'ca': """
+    vegeu Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., 
+    Shroder, J. F., & Tranter, M. (2011). Encyclopedia of snow, ice 
+    and glaciers. Springer Science & Business Media.
+    """          
     },
     
 # translation in dataframe:    
     'TerminusType_land':
         {
             'en': 'Land-terminating',
-            'de': 'Endet an Land'
+            'de': 'Endet an Land',
+            'ca': 'Acaben sobre terra'
         },
     
     'TerminusType_marine':
         {
             'en': 'Marine-terminating',
-            'de': 'Endet im Meer'
+            'de': 'Endet im Meer',
+            'ca': 'Acaben sobre mar'
         },
     
     'pic_pretext':
         {
             'en': 'Photo courtesy',
-            'de': 'Foto:'},
+            'de': 'Foto:',
+            'ca': 'Foto:'
+            },
     
 # tooltip code:
     'tooltip_length':
         {
             'en': 'Length',
-            'de': 'Länge'},
+            'de': 'Länge',
+            'de': 'Longitud'
+            },
     
     'tooltip_loc':
         {
             'en': 'Location',
-            'de': 'Koordinaten'
+            'de': 'Koordinaten',
+            'ca': 'Coordenades'
         }
 }
